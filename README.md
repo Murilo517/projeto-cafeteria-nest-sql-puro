@@ -54,16 +54,20 @@ A API estará disponível em: http://localhost:3000
 📋 Rotas da API
 
 🔹 Criar Usuário
+
 POST /users
+
 {
   "name": "João da Silva",
   "email": "joao@gmail.com"
 }
 
 🔹 Listar Usuários
+
 GET /users
 
 🔹 Criar Produto
+
 POST /products
 {
   "name": "Café Expresso",
@@ -71,10 +75,13 @@ POST /products
 }
 
 🔹 Listar Produtos
+
 GET /products
 
 🔹 Criar Pedido
+
 POST /orders
+
 {
   "userId": 1,
   "productId": 2,
@@ -83,21 +90,25 @@ POST /orders
 }
 
 🔹 Listar Todos os Pedidos
+
 GET /orders
 
 🔹 Atualizar Status de um Pedido
+
 PATCH /orders/:id/status
 {
   "status": "READY"
 }
 
 🔹 Buscar Pedidos por Status
+
 GET /orders/filter/status?status=READY
 
 Valores possíveis para status:
-    PREPARING
-    READY
-    DELIVERED
+
+. PREPARING
+. READY
+. DELIVERED
 
 ✨ Diferenciais Implementados
 

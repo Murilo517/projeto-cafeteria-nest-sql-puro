@@ -47,8 +47,8 @@ projeto-cafeteria/
 
 Exemplo para PostgreSQL: DATABASE_URL="postgresql://usuario:senha@localhost:5432/cafeteria"
 
-    Rode as migrações npx prisma migrate dev
-    Inicie a API npm run start:dev
+Inicie a API npm run start:dev
+
 A API estará disponível em: http://localhost:3000
 
 📋 Rotas da API
@@ -84,7 +84,7 @@ POST /orders
 
 {
   "userId": 1,
-  "productId": 2,
+  "productId": 1,
   "quantity": 2,
   "notes": "Sem açúcar"
 }

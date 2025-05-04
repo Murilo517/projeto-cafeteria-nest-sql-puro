@@ -12,6 +12,7 @@ Olá! Este projeto é a solução para o desafio técnico da vaga Node.js. Nele,
     Buscar pedidos filtrando por status
 
 ⚠️ Observação Importante:
+
 Antes de criar um pedido, é necessário primeiro cadastrar um usuário e um produto.
 Use as rotas de criação de usuários e produtos antes de criar um pedido.
 O campo 'client', que representa o usuário no pedido, vem por meio de um relacionamento, mas eu também criei uma versão dele como string, para atender exatamente ao que foi solicitado.
